@@ -5,11 +5,11 @@ Olá. Estamos chegando na metade do curso e como você já deve ter percebido, p
 Mas atentando-se ao fato de sempre validarmos o conteúdo visto até determinado ponto do nosso curso, iremos trabalhar em um projeto desenvolvido por vocês. 
 \o yey
 
-> queen - under pressure
+> rainha - sob pressão
 
 ## Nosso projeto
 
-Chegou a hora de colocarmos em prática o que aprendemos até agora e vamos desenvolver uma api de músicas que nos permita sobre músicas, álbuns e artistas. Iremos descrever com calminha e segurança cada um dos itens que esperamos que vocês desenvolvam ok?
+Chegou a hora de colocarmos em prática o que aprendemos até agora e vamos desenvolver uma api de músicas que nos permita obter informações sobre músicas, álbuns e artistas. Iremos descrever com calminha e segurança cada um dos itens que vamos desenvolver ok?
 
 ---
 
@@ -176,12 +176,12 @@ Vamos começar relembrando nossa estrutura de uma maneira geral.
 [Oi Analu, sdds!](https://github.com/reprograma/on6-xp-s7-api-get)
 
 
-- Exemplo ~~Topperson~~ Em Imagem
+- Outro exemplo ~~Topperson~~ Em Imagem
 
 https://github.com/reprograma/on7-porto-s7-api-ii/blob/master/to-do-api/arquitetura-todo-api.png
 
 Lembrando: pode sempre dar aquele amor na pesquisada com o conteúdo base referente.
-Essa será uma prática comum pra galera.
+Essa é uma prática comum entre a galera.
 
 E mais importante: não precisa decorar código, beleza?
 
