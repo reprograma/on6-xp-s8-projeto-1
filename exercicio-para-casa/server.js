@@ -1,5 +1,4 @@
-const express = require("express")
-const app = express()
+const app = require("./scr/app")
 
 const PORT = 8080
 
