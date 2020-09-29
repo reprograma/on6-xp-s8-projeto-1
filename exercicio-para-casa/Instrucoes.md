@@ -37,7 +37,7 @@ O json com os dados que vamos usar na nossa API é o arquivo `games.json` que es
 
 | Recurso | Descrição |
 | --- | --- |
-| `/jogos` | Retorna todas os jogos da API |
+| `/jogos` | Retorna todos os jogos da API |
 ```json
     [
         {
