@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express()
-const router = require("./route/musicasRoutes")
+const router = require("./route/gamesRoutes")
 
 app.use("/", router)
 
