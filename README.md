@@ -55,9 +55,10 @@ Vamos entender melhor os nossos dados e contrato definido para nossa API.
             "id": 1,
             "nome": "Evidências",
             "amostra": "https://p.scdn.co/mp3-preview/3e4f45a788d7ecb0e87a32bf57119cd8124c8710?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
-            "nome_album": "Do Tamanho Do Nosso Amor",
+            "album_nome": "Do Tamanho Do Nosso Amor",
             "imagem": "https://i.scdn.co/image/ab67616d00001e0252b5ab856085fe47ccec3cce",
-            "artista": "Chitãozinho & Xororó"
+            "artista": "Chitãozinho & Xororó",
+            "duracao": 279280
         }, ...
     ]
 ```
