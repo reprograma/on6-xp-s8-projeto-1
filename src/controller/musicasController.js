@@ -67,9 +67,56 @@ const getArtistabyId = (request, response) => {
     }
 }
 
+const listaAlbuns = musicas.map(musica => {
+    const album = {
+        id: musica.album.id,
+        nome: musica.album.name,
+        data_lancamento: musica.album.release_date,
+        total_musicas: musica.album.total_tracks,
+        imagem: musica.album.url
+    }
+    return album
+})
+
+const getAlbuns = (resquest, response) => {
+
+    let listaSemRepetir = []
+
+    listaAlbuns.forEach(album => {
+        if(!listaSemRepetir.find(item => item.id === album.id)){
+            listaSemRepetir.push(album)
+        }
+    })
+
+    response.status(200).send(listaSemRepetir)
+}
+
+const getAlbumPorNome = (resquest, response) => {
+    const nome = resquest.params.nome
+
+    const album = listaAlbuns.find(album => album.nome.toLowerCase().split(' ').join('-') === nome)
+
+    const musicasAlbum = novaListaMusicas.filter(musica => {
+        return musica.album_nome.toLowerCase().split(' ').join('-') === nome
+    })
+
+    const novoAlbum =  {
+        id: album.id,
+        nome: album.nome,
+        data_lancamento: album.data_lancamento,
+        total_musicas: album.total_musicas,
+        imagem: album.imagem,
+        musicas: musicasAlbum
+    }
+
+    response.status(200).send(novoAlbum)
+}
+
 module.exports = {
     getMusicas,
     getMusicasbyId,
     getArtistas,
-    getArtistabyId
+    getArtistabyId,
+    getAlbuns,
+    getAlbumPorNome
 }
