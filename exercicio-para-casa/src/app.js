@@ -4,6 +4,6 @@ const app = express()
 //rotas
 const games = require("./routes/gamesRoute")
 
-app.use("/", games)
+app.use("/jogos", games)
 
 module.exports = app
