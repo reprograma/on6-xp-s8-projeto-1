@@ -1,7 +1,8 @@
-const app = require('./src/app')
+const app = require('./exercicio-para-casa/src/app')
 
-const PORT = 8080
+const PORT = 3000
 
 app.listen(PORT, function (request, response) {
     console.log("O Nosso app esta rodando na porta " + PORT)
 })
+
